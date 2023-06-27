@@ -33,6 +33,7 @@ header > .assine {
     border-style: none;
     border-radius: 1rem;
     font-size: 1rem;
+    color: white;
 }
 
 main {
@@ -68,6 +69,42 @@ main > h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+
+    margin-top: 0.7rem;
+}
+
+main > hr {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    background: linear-gradient(90deg, rgb(85, 22, 186), rgba(255, 0, 229, 0.5) 80%);
+    width: 40rem;
+    border-style: none;
+    padding: 0.16rem;
+}
+
+main > div {
+    color: white;
+    font-size: 2rem;
+
+    margin-top: 3rem;
+    justify-content: center;
+    display: flex;
+}
+
+main > div.valor {
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+main > div.valor > sup{
+    color: white;
+    font-size: 2rem;
+    font-weight: normal;
+
+    justify-content: center;
+    display: flex;
 }
 
 @keyframes gradient {
