@@ -146,7 +146,7 @@ main > p{
 
 #section2 {
     border: 2px solid orange;
-    height: 60rem;
+    height: 55rem;
     background: url(assets/images/background-movies-series.png) no-repeat;
     background-color: black;
     background-position: center;
@@ -326,6 +326,58 @@ main > p{
     height: 2.5rem;
     border-radius: 1rem;
     color: white;
+}
+
+#section3 {
+    height: 75rem;
+    border: #ff00e5 2px solid;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 36% 20% 37%;
+    justify-items: center;
+    gap: 3rem;
+}
+
+#section3 > .hbo , .originals, .dc, .wb, .cn, .league{
+    border: #00ff4c 2px solid;
+    padding: 11rem;
+
+}
+
+#section3 > .hbo {
+    background: url("assets/images/hbo-default_0.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#section3 > .originals {
+    background: url('assets/images/MAX-Default.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#section3 > .dc {
+    background: url('assets/images/DC_Default.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#section3 > .wb {
+    background: url('assets/images/WB-Default.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#section3 > .cn {
+    background: url('assets/images/CN-Default.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#section3 > .league {
+    background: url('assets/images/UCL-Default.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 
